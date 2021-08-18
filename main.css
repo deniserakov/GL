@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    background-color: #635854;
+    border-bottom: 4px solid #3596F5;
+    padding: 12px;
+}
+.navbar{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;/* поствить все по порядку */
+    justify-content: space-between; /*прижать к краям */
+    align-items: center; /*выравнить по центру*/
+}
+.navbar-meny{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+.navbar-item{
+    margin: 0 40px;
+}
+.navbar-link{
+    text-decoration: none; 
+    color: #fff;
+}
+.navbar-contaxt{
+    text-align: center;
+}
+.navbar-text{
+    display: flex;
+    color: #fff;
+    margin-bottom: 4px;
+    font-size: 14px;
+    line-height: 16px;
+}
+.navbar-phon{
+    font-weight: bold;
+    font-style: 17px;
+    line-height: 20px;
+    text-decoration: none; 
+    color: #fff;
+}
