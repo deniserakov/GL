@@ -101,3 +101,6 @@ cursor: pointer;
     padding: 16px 36px;
     cursor: pointer;
 }
+path.current-flor{
+    opacity: 1;
+}
